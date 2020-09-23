@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='ko'>
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- 웹 폰트 설정 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+{% include head.html %}
+ 
+<body>
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+
+  <span itemscope="" itemtype="http://schema.org/Organization">
+    <link itemprop="url" href="https://uiuxchanh.github.io/">
+    <a itemprop="sameAs" href="https://www.instagram.com/chchchanh/"></a>
+    <a itemprop="sameAs" href="https://github.com/uiuxchanh"></a>
+  </span>
+
+
+  <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl }}"> </script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">   </script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">   </script>
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">              </script>
+</body>
+
+</html>
