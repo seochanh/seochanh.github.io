@@ -21,7 +21,7 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 1. `시스템 환경설정 > Dock`에서 설정하면 됩니다. 크기는 좀 줄이고, `자동으로 Dock 가리기와 보기`를 체크했습니다.
 ![환경설정](/images/posts/2020-08-23/dock_1.png)
 2. 이건 Dock에 들어있는 폴더 설정입니다. 폴더를 스택이 아니라 폴더로 표시하고 부채 모양이 아니라 목록 모양으로 봐야 보기 편하네요. Dock에 들어있는 폴더에서 마우스 우측을 클릭하면 설정할 수 있습니다.
-![환경설정](/images/posts/2020-08-23/dock_2.png)
+![환경설정](/images/posts/2020-08-23/dock_2.png){: width="300"}
 
 <br>
 
@@ -44,8 +44,8 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 ### 5. Finder 설정
 이름은 거창하게 Finder 설정이지만 윈도우에서의 폴더 설정입니다.
 1. Finder가 열린 상태에서 메뉴바의 보기를 누르면 밑의 사진처럼 탭이 열립니다. `경로 막대 보기`와 `상태 막대 보기`를 선택합니다.
-![Finder 설정](/images/posts/2020-08-23/finder_1.png)
-2. 사진처럼 설정하게 되면 하단에 경로와 항목의 개수, 용량까지 보이게 되어 편합니다. 필요에 따라 계층 보기를 선택하시면 사진처럼 폴더를 계층 구조로 열 수 있습니다.
+![Finder 설정](/images/posts/2020-08-23/finder_1.png){: width="300"}
+1. 사진처럼 설정하게 되면 하단에 경로와 항목의 개수, 용량까지 보이게 되어 편합니다. 필요에 따라 계층 보기를 선택하시면 사진처럼 폴더를 계층 구조로 열 수 있습니다.
 ![Finder](/images/posts/2020-08-23/finder_2.png)
 
 
@@ -90,7 +90,7 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 1. [링크](https://apps.apple.com/kr/app/magnet-%EB%A7%88%EA%B7%B8%EB%84%B7/id441258766?mt=12)를 통해 들어가거나 앱 스토어에서 `Magnet`을 검색해서 다운 받습니다. 가격은 3,900원입니다.
 ![Magnet download](/images/posts/2020-08-23/magnet_1.png)
 2. 상단 메뉴바의 Magnet 아이콘을 클릭하여 사용하시거나 단축키를 보고 사용하시면 됩니다. `control + option + 방향키`와 `control + option + enter` 외에는 쓸 일이 많이 없기는 하네요. 
-![Magnet download](/images/posts/2020-08-23/magnet_2.png)
+![Magnet download](/images/posts/2020-08-23/magnet_2.png){: width="300"}
 
 
 - 링크 : [Magnet Download(App Store)](https://apps.apple.com/kr/app/magnet-%EB%A7%88%EA%B7%B8%EB%84%B7/id441258766?mt=12)
