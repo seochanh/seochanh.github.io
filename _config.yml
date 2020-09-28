@@ -4,7 +4,7 @@ email:       'uiuxchanh@gmail.com'
 description: '코딩하는 취준생 찮의 블로그'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://uiuxchanh.github.io' # The base hostname & protocol for your site
-twitter:     ''
+twitter:     'https://twitter.com/chchchanhee'
 github:      'https://github.com/uiuxchanh'
 instagram:   'https://www.instagram.com/chchchanh/'
 facebook:    ''
