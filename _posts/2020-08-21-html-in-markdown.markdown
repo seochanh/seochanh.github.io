@@ -1,8 +1,8 @@
 ---
 layout: post
 title: '[MarkDown,Git Blog] 마크다운 내부에 HTML, CSS, JavaScript 작성하기'
-tags: [Markdown, html, css, javascript, git blog]
-image: 
+tags: [Markdown, html, css, javascript, gitblog]
+image:
   feature: /images/posts/markdown.jpg
 ---
 
@@ -33,7 +33,7 @@ image:
   [class*="box"] { display: flex; width: 20%; height: 50px; }
 </style>
 ```
-1. `<style>` 태그 내부에 작성하면 적용이 됩니다. 
+1. `<style>` 태그 내부에 작성하면 적용이 됩니다.
 2. 처음 상자를 지정할 때 `display: grid` 속성을 사용했는데 적용이 되지 않아 `display: flex`로 변경하여 사용했습니다. 그 외에 사용했던 속성 중에는 적용되지 않는 속성은 없었습니다. 브라우저마다 적용되는 CSS 속성이 다른 것과 비슷한 원리인 것 같습니다.
 3. CSS를 적용하는 더 좋은 방법으로 변수로 감싸서 사용하는 것을 추천하는 글도 있네요. 하단의 코드가 그것입니다. 글에 나온대로 적용해보니 `(setq markdown-xhtml-header-content" ")`이라는 변수가 포스트 내부에도 보여서 그냥 삭제하고 `<style>` 태그만 남겼습니다. 제가 뭔가 잘못해서 적용이 안되는 걸까요? ([참고1](https://jblevins.org/log/custom-css), [참고2](https://github.com/jrblevin/markdown-mode/issues/183))
 4. 3번의 변수를 이용해 외부 CSS도 적용 가능하다고 합니다. 이건 제대로 동작할지 궁금하네요. [링크](https://jblevins.org/log/custom-css))
@@ -61,7 +61,7 @@ hexText();
 ```
 1. `<script>` 태그 내부에 쓰니 문제없이 동작합니다.
 2. 크롬과 엣지에서는 문제없이 동작했지만 IE에서는 제대로 동작하지 않았습니다. 또한 IE에서는 마크다운에 적용된 속성도 인식하지 못하는지 컨텐츠의 width 값이 제대로 조절되지 않았습니다. (IE에서는 반응형이 동작을 하지 않습니다.)
-3. 문서를 작성하면서 태그의 위치가 몇 번 바뀌었지만 문제 없이 동작했습니다. 최종적으로 HTML 문서에서 제일 하단에 작성하는 것처럼 제일 하단에 작성했습니다. 
+3. 문서를 작성하면서 태그의 위치가 몇 번 바뀌었지만 문제 없이 동작했습니다. 최종적으로 HTML 문서에서 제일 하단에 작성하는 것처럼 제일 하단에 작성했습니다.
 
 <br>
 
