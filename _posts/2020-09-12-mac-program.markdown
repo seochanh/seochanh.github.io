@@ -6,7 +6,8 @@ image:
   feature: /images/posts/alfred.jpg
 ---
 
-[MacBook 나를 위한 맥북 초기 세팅 + 설치하면 좋은 프로그램](https://seochanh.github.io/2020/08/23/macbook-initial-setting/) 에서는 초기 세팅할 때 설치하면 좋은 프로그램 세 가지를 소개해 드렸는데요. 오늘은 필요에 따라 추가적으로 설치한 프로그램을 소개해드리려고 합니다.
+- [MacBook 나를 위한 맥북 초기 세팅 + 설치하면 좋은 프로그램](https://seochanh.github.io/2020/08/23/macbook-initial-setting/)
+위 글에서는 초기 세팅할 때 설치하면 좋은 프로그램 세 가지를 소개해 드렸는데요. 오늘은 필요에 따라 추가적으로 설치한 프로그램을 소개해드리려고 합니다.
 
 <br>
 
