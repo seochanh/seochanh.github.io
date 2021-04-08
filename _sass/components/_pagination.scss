@@ -5,6 +5,8 @@
 .c-pagination {
   text-transform: uppercase;
   transition: $global-transition;
+  display:block;
+  padding-top:30px;
 
   @include attention() {
     color: $color-brand;
