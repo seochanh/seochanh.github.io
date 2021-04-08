@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /poetry/
-title: poetry
+title: Poetry
 description: in reverse chronological order, dating back to 2002. Dates preserved as closely to orignal writing as possible.
 ---
 
+테스트 중입니다.
 <ul class="post-list">
 {% for poem in site.poetry reversed %}
     <li>
