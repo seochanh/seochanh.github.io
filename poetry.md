@@ -4,9 +4,10 @@ permalink: /poetry/
 title: Poetry
 ---
 
-<!-- /layouts/page.html 파일의 {{content}} 내부에 삽입 -->
 
 테스트 중입니다.
+<!-- /layouts/page.html 파일의 {{content}} 내부에 삽입 -->
+
 <ul class="post-list">
   <li>
     <h2>테스트 중2</h2>
