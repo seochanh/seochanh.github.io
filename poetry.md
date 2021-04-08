@@ -3,6 +3,7 @@ layout: page
 permalink: /poetry/
 title: Poetry
 ---
+<!-- /layouts/page.html 파일의 {{content}} 내부에 삽입 -->
 
 테스트 중입니다.
 <ul class="post-list">
