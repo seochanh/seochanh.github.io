@@ -2,7 +2,7 @@
 
   <a href='{{ post.url | prepend: site.baseurl }}' class='c-post-card {% if forloop.first == true %} c-post-card--first {% endif %} {% if forloop.last == true %} c-post-card--last {% endif %}'>
     <h3 class='c-post-card__title'>{{ post.title }}</h3>
-    
+
     {% comment %}index 페이지 포스트 설명{% endcomment %}
     <p class='c-post-card__excerpt u-font-medium'>
       {{ post.content | strip_html | truncatewords:22 }}
@@ -11,13 +11,19 @@
     {% comment %} index 페이지 포스트 날짜 {% endcomment %}
     <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
 
-    {% comment %} 
+    <div class='c-tags'>
+      {% for tag in page.tags %}
+        <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+      {% endfor %}
+    </div>
+
+    {% comment %}
     index 페이지 post 이미지
     {% if post.image %}
         <img src='{{ post.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ post.title }}'>
       {% endif %}
     {% endcomment %}
-    
+
   </a>
 
 </div>
