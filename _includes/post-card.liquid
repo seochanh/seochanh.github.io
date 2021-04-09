@@ -12,11 +12,13 @@
     <span class='c-post-card__date'>{{ post.date | date: '%d %b %Y' }}</span>
 
     {% comment %} index 페이지 태그 {% endcomment %}
+    {% for tag in site.data.tags %}
     <div class='c-tags'>
-      {% for tag in page.tags %}
-        <a href='/'>{{ tag }}</a>
-      {% endfor %}
+      <a class="tag" data-tag="{{tag}}">
+        {{ site.data.format[tag] }}
+      </a>
     </div>
+    {% endfor %}
 
     {% comment %}
     index 페이지 post 이미지
