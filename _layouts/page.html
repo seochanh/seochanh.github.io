@@ -13,6 +13,12 @@ layout: default
           {% include page-image.html %}
 
           {{ content }}
+
+          <div class='c-tags'>
+            {% for tag in page.tags %}
+              <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+            {% endfor %}
+          </div>
         </div>
       </article>
     </div>
