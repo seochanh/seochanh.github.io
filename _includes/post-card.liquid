@@ -13,9 +13,8 @@
 
     {% comment %} index 페이지 태그 {% endcomment %}
     <div class='c-tags'>
-      <a href='/'>test tag</a>
       {% for tag in page.tags %}
-        <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+        <a href='/'>{{ tag }}</a>
       {% endfor %}
     </div>
 
