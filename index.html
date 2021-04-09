@@ -2,14 +2,23 @@
 layout: default
 ---
 
-<div class='o-wrapper'>
-  <div class='o-grid'>
-    {% for tag in site.data.tags %}
-    <a class="tag" data-tag="{{tag}}">
-      {{ site.data.format[tag] }}
-    </a>
-    {% endfor %}
+<style>
 
+</style>
+
+
+<div class='o-wrapper'>
+  <div class="o-grid">
+    <div class="c-tags">
+      {% for tag in site.data.tags %}
+      <a class="tag" data-tag="{{tag}}">
+        {{ site.data.format[tag] }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='o-grid'>
     {% for post in paginator.posts %}
       {% include post-card.liquid %}
     {% endfor %}
