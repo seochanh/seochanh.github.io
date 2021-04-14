@@ -1,7 +1,7 @@
 # Site settings
 title:       'Chanh의 블로그'
 email:       'techchanh@gmail.com'
-description: '코딩하는 취준생 찮의 블로그'
+description: '자기개발자 찮의 블로그'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://seochanh.github.io' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/chchchanhee'
