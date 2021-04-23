@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll 블로그 구조 분석 1
+title: 'Jekyll 블로그 구조 분석 1(파일편)'
 tags: [jekyll, gitblog]
 image:
   feature: /images/posts/jekyll-blog.png
@@ -29,11 +29,10 @@ aspirethemes/type
   ├─_sass
   ├─admin
   ├─images
-  ├─js
-  └─images
+  └─js
 ```
 
-저의 블로그는 위의 파일 구조에 나온 것처럼 Aspire Themes의 type 테마를 사용 중입니다. 다른 테마는 사용해보거나 확인해보지 못해 얼마나 다른 구조로 되어 있는지 모르겠네요. 제가 사용하는 테마의 파일들을 정리해보겠습니다.
+저의 블로그는 위의 파일 구조에 나온 것처럼 Aspire Themes의 type 테마를 사용 중입니다. 다른 테마는 사용해보거나 확인해보지 못해 얼마나 다른 구조로 되어 있는지 모르겠네요. 제가 사용하는 테마에 최상위 디렉토리에 있는 파일들을 정리해보겠습니다.
 
 <br>
 

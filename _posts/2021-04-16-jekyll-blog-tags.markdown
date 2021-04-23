@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'jekyll 블로그 태그 기능 추가'
+title: 'Jekyll 블로그 태그 기능 추가'
 tags: []
 categories: [hello, bye]
 # image: '/images/posts/8.jpg'
