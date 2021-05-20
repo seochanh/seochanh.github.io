@@ -47,4 +47,5 @@ collections:
     - scope:
         path: '_pages'
       values:
-        permalink: /:basename:output_ext
+        permalink: /:month-:day-:year/:title.html
+        # permalink: /:basename:output_ext
