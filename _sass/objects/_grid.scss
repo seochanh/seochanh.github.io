@@ -25,6 +25,7 @@ $grid-gutter: $base-spacing-unit;
 }
 
 .o-grid__col {
+  flex-grow: 1;
   float: left;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
@@ -96,8 +97,4 @@ $grid-gutter: $base-spacing-unit;
   &--end {
     margin-left: auto;
   }
-}
-
-.o-grid__post.hidden {
-  display:none;
 }

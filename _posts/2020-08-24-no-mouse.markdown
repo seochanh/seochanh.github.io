@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Linux,Vim,Bash] 마우스 없이 살기'
-tags: [linux, vim, bash, iterm, zsh, chrome]
+tags: [linux, vim, bash, iterm, zsh, chrome, tag01]
 image:
   feature: /images/posts/vim.jpg
 ---

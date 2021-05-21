@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS 스크롤바 디자인
-tags: [html, css]
+tags: [html, css, tag01]
 # image: '/images/posts/8.jpg'
 ---
 

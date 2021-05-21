@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Firefox 외] 브라우저 갈아타기'
-tags: [chrome, safari, whale, vivalde, firefox]
+tags: [chrome, safari, whale, vivalde, firefox, tag01]
 image:
   feature: /images/posts/firefox.jpg
 ---

@@ -28,23 +28,41 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - category
 
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
 tag_permalink_style:  pretty
 
-# Pages path
+# Add collections
 collections:
-  portfolio:
-    output: false
-    permalink: /portfolio/:path/
+  notes:
+    output: true
   poetry:
-    output: true
-    permalink: '_poetry'
-  defaults:
-    output: true
-    - scope:
-        path: '_pages'
-      values:
-        permalink: /:basename:output_ext
+    output: false
+
+# Pages path
+defaults:
+  - scope:
+      path:   'pages'
+    values:
+      layout: 'default'
+  - scope:
+      path:   'posts'
+    values:
+      layout: 'post'
+  - scope:
+      path:   'category'
+    values:
+      layout: 'category'
+  - scope:
+      path:   'poetry'
+      type:   'poetry'
+    values:
+      layout: 'poem'
+  - scope:
+      path:   'notes'
+      type:   'notes'
+    values:
+      layout: 'note'

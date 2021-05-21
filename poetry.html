@@ -1,0 +1,56 @@
+---
+layout: default
+title: Poetry
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <h3>ddd</h3>
+
+    {% for poem in site.poetry %}
+      <h3>{{ poem.title }}</h3>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- <div class='o-wrapper'>
+  <div class='o-grid'>
+    <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+  </div>
+
+  <div class='o-grid'>
+    {% for post in paginator.posts %}
+      {% include post-card.liquid %}
+
+      <div class='o-grid__col o-grid__poetry'>
+
+        <a href='{{ poem.url | prepend: site.baseurl }}' class='c-poetry-card {% if forloop.first == true %} c-poetry-card--first {% endif %} {% if forloop.last == true %} c-poetry-card--last {% endif %}'>
+          <h3 class='c-poetry-card__title'>{{ post.title }}</h3>
+          <h3 class='c-poetry-card__title'>{{ poem.title }}</h3>
+
+          <p class='c-poetry-card__excerpt u-font-medium'>
+            {{ poem.date | date: '%B %-d, %Y — %H:%M' }}
+          </p>
+        </a>
+
+      </div>
+    {% endfor %}
+
+  </div>
+</div> -->
+
+
+<!-- <article class="post-content">
+
+  <ul class="post-list">
+  {% for poem in site.poetry reversed %}
+    <li>
+      <h2>
+        <a class="poem-title" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a>
+      </h2>
+      <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+
+</article> -->

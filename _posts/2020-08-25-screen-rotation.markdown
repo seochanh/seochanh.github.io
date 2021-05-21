@@ -2,7 +2,7 @@
 layout: post
 title: '중력이 없는 우주에서 아이패드 화면을 회전하는 기술'
 categories: ''
-tags: [gyro-sensor, gravity, face-recognition]
+tags: [gyro-sensor, gravity, face-recognition, tag01]
 image:
   feature: /images/posts/space.jpg
   credit: 'NASA'

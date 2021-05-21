@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Grilled Cheese
-instgram_url: http://
 ---
 
 Not so much the belly of the beast

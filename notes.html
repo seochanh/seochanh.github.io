@@ -1,0 +1,20 @@
+---
+layout: default
+title: Note
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post'>
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+      </article>
+    </div>
+  </div>
+
+  <div class='o-grid o-note-grid'>
+    {% for note in site.notes reversed %}
+      {% include note-card.liquid %}
+    {% endfor %}
+  </div>
+</div>

@@ -3,6 +3,15 @@ layout: default
 ---
 
 <div class='o-wrapper'>
+  <div class="o-grid">
+    <div class="c-tags">
+      {% for tag in site.data.tags %}
+      <a class="tag" data-tag="{{tag}}" href="/tag/{{tag}}">
+        {{ site.data.format[tag] }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
 
   <div class='o-grid'>
     <div class='o-grid__col'>

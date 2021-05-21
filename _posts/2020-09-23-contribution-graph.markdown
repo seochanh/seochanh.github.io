@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Github,WakaTime,CODUCK] 최근 한 달간의 코딩 기록'
-tags: [github]
+tags: [github, tag01]
 image:
   feature: /images/posts/2020-09-23/contribution-graph.jpg
 ---
@@ -12,7 +12,7 @@ image:
 
 ### 1. 깃허브 잔디 심기 (Github Contribution Graph))
 ![깃허브 잔디 심기](/images/posts/2020-09-23/github.png)
-아직은 듬성듬성 보잘것없지만 앞으로 열심히 해봐야죠.. 
+아직은 듬성듬성 보잘것없지만 앞으로 열심히 해봐야죠..
 - 7월 16일에 학원에서 처음으로 레파지토리를 만들고 Git을 이용하는 방법을 배웠었어요.
 - 그 후에 한 달 동안은 깃허브는 사용하지 않다가 8월 17일에 깃허브 블로그를 만들기 시작합니다.
 - 블로그를 만들고 2주간 블로그를 열심히 수정, 보완하는 커밋의 흔적들이 보이네요.

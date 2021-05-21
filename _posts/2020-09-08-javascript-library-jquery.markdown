@@ -1,8 +1,8 @@
 ---
 layout: post
 title: '[Javascript,jQuery] 제이쿼리, 라이브러리는 라이브러리일 뿐'
-tags: [javascript, jquery]
-image: 
+tags: [javascript, jquery, tag01]
+image:
   feature: /images/posts/jquery.jpg
 ---
 
@@ -57,7 +57,7 @@ for(var i=0; i<everyClass.length; i++) {
 <br>
 
 ### 마침
-제이쿼리는 생각없이 사용하기 너무 좋은 라이브러리인 것 같다. 하지만 그렇게만 사용하기에는 섭섭하다. 소스 분석을 통해(분석된 자료를 통해) 원리를 이해하고 사용한다면 바닐라 자바스크립트에서도 충분히 라이브러리의 장점을 갖춘 코드를 사용할 수 있지 않을까? 
+제이쿼리는 생각없이 사용하기 너무 좋은 라이브러리인 것 같다. 하지만 그렇게만 사용하기에는 섭섭하다. 소스 분석을 통해(분석된 자료를 통해) 원리를 이해하고 사용한다면 바닐라 자바스크립트에서도 충분히 라이브러리의 장점을 갖춘 코드를 사용할 수 있지 않을까?
 
 - [javascript/jQuery javascript와 jQuery 비교 정리.](https://zero-gravity.tistory.com/321)
 - [jQuery 분석(1) - ZeroCho Blog](https://www.zerocho.com/category/JavaScript/post/578700166d694b98754f1d92)

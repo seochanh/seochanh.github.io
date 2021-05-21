@@ -1,8 +1,8 @@
 ---
 layout: post
 title: '[SSH, Linux] VM 인스턴스를 다른 OS로 외부IP 주소에 접속하기'
-tags: [linux, gcloud, server]
-image: 
+tags: [linux, gcloud, server, tag01]
+image:
   feature: /images/posts/gcloud.jpg
 ---
 <br>
@@ -20,7 +20,7 @@ image:
 <br>
 
 ### 1. public key(SSH 키) 만들기
-아이패드의 `blink shell`은 이 key가 자동으로 할당되어 있지만 다른 OS에서는 따로 키를 만들어줘야 했습니다. 
+아이패드의 `blink shell`은 이 key가 자동으로 할당되어 있지만 다른 OS에서는 따로 키를 만들어줘야 했습니다.
 ```bash
 $ ~/.ssh                  # .ssh 폴더로
 $ ssh-keygen -t rsa       # rsa라는 암호화 방식으로 키를 생성

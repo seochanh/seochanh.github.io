@@ -1,0 +1,37 @@
+/*------------------------------------*\
+  Components > Note Card
+\*------------------------------------*/
+
+.o-note-grid {
+  &__col {
+    width: 50%;
+    padding: $grid-gutter;
+    flex-grow: 1;
+
+    @include mq($until: tablet) {
+      width: 100%;
+    }
+  }
+}
+
+.c-note-card {
+  padding: double($base-spacing-unit);
+  word-break: break-word;
+  border: 1px solid $color-border;
+  height: 100%;
+
+  &__title {
+    margin-bottom: half($font-size-base);
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    transition: $global-transition;
+
+    @include mq($from: tablet) {
+      font-size: double($font-size-tiny);
+    }
+  }
+
+  &__date {
+    margin-bottom: half($font-size-base);
+  }
+}

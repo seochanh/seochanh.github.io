@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 블로그 로컬 서버 연결(윈도우)
-tags: [jekyll, gitblog]
+tags: [jekyll, gitblog, tag01]
 # image: '/images/posts/8.jpg'
 ---
 

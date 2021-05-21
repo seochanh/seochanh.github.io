@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Jekyll 블로그 구조 분석 1(파일편)'
-tags: [jekyll, gitblog]
+tags: [jekyll, gitblog, tag01]
 image:
   feature: /images/posts/jekyll-blog.png
 ---
