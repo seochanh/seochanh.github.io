@@ -4,13 +4,9 @@
 
 .o-note-grid {
   &__col {
-    width: 50%;
+    width: 100%;
     padding: $grid-gutter;
     flex-grow: 1;
-
-    @include mq($until: tablet) {
-      width: 100%;
-    }
   }
 }
 
