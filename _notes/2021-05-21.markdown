@@ -1,0 +1,11 @@
+---
+title: 'Github Blog 노트 기능 추가'
+tag: [jekyll]
+---
+
+`github blog`에 POST 외에 다른 메뉴를 추가하느라 정말 고생을 많이 했다. `POST`를 카테고리로 나누는 기능은 전에 추가했지만 `POST`와는 별개로 운영되는 `NOTE` 기능을 갖고 싶었다.
+기본적으로 지원하는 기능인 `Collections` 기능을 사용해야 했다.
+- `_config.yml` 파일에 `collections`이라는 속성과 컬렉션명을 지정하면 된다. 이때 컬렉션명과 폴더명은 동일해야 ㅎ나다.
+- `Collections` 기능을 추가하니 `site.notes`라는 변수가 사용이 가능해졌다.
+
+###### 출처: [014. JeKyll 컨텐츠 - (7) 컬렉션(Collections) - 사용법과 변수](https://namhoon.kim/2017/03/23/jekyll/014/index.html)
