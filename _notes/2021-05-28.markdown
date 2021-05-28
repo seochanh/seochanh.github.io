@@ -1,0 +1,12 @@
+---
+title: '[CSS] background-size 가로, 세로 사이즈 다르게 지정하기'
+tag: [css]
+---
+
+```css
+div{
+  background-size: 30% auto;  /* 가로 세로 */
+}
+```
+
+`background-size`는 보통 `contain`이나 `cover`를 쓰지만 가끔 가로와 세로를 따로 제어해야 하는 경우도 있다. 이럴 때 띄어쓰기로 구분을 주고 값을 2개를 넣어주면 앞에 쓴 값은 가로 값, 뒤에 쓴 값은 세로 값이 된다.
