@@ -1,5 +1,5 @@
 ---
-title: 'Github Blog 노트 기능 추가'
+title: '[Jekyll] Github Blog 노트 기능 추가'
 tag: [jekyll]
 ---
 

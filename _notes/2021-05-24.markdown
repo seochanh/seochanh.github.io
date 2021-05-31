@@ -1,5 +1,5 @@
 ---
-title: '자바스크립트가 문서가 준비된 이후에 실행되도록'
+title: '[JavaScript] 자바스크립트가 문서가 준비된 이후에 실행되도록'
 tag: [javascript, jquery]
 ---
 

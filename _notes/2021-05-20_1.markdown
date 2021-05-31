@@ -1,5 +1,5 @@
 ---
-title: '사이트가 빌드될 때 한 번만 읽어들이는 _config.yml'
+title: '[Jekyll] 사이트가 빌드될 때 한 번만 읽어들이는 _config.yml'
 tag: [jekyll]
 ---
 

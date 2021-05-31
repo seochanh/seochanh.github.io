@@ -1,5 +1,5 @@
 ---
-title: 'VSCode FTP 확장프로그램 -2(SFTP)'
+title: '[VSCode] FTP 확장프로그램 -2(SFTP)'
 tag: [vscode, ftp]
 ---
 

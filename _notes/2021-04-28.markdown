@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Flash Player 활성화 방법'
+title: '[FLASH] Adobe Flash Player 활성화 방법'
 tag: [flash]
 ---
 
