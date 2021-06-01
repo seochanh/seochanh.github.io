@@ -1,0 +1,13 @@
+---
+title: '[CSS] table의 td 줄바꿈'
+tag: [css]
+---
+
+반응형에서 `table`의 `td`를 아래로 떨어뜨려야 하는데 아무리 검색해도 안 나와서 못했었는데 팀장님이 알려주셨다. :D
+
+```css
+table td{
+  width: 100%;
+  display:block;
+}
+```
