@@ -1,0 +1,31 @@
+---
+title: '[JavaScript, jQuery] 현재 URL과 경로을 가져오는 방법'
+tag: [javascript, jquery]
+---
+
+##### JavaScript의 경우
+```javascript
+window.location.host      // returns host
+window.location.hostname  // returns hostname
+window.location.pathname  // returns pathname
+window.location.href      // returns full current url
+window.location.port      // returns the port
+window.location.protocol  // returns the protocol
+window.location.origin
+```
+
+##### jQuery를 사용할 경우
+```javascript
+$(location).attr('host');     // returns host
+$(location).attr('hostname'); // returns hostname
+$(location).attr('pathname'); // returns pathname
+$(location).attr('href');     // returns href
+$(location).attr('port');     // returns port
+$(location).attr('protocol'); // returns protocol
+$(location).attr('origin');
+```
+
+현재 URL, 경로 뿐 아니라 선택자로 `a` 태그를 선택하여 `href` 등을 가져올 수 있다.
+
+
+출처: [[jQuery] 현재 URL, 경로 가져오는 방법 - shaking blog](https://88240.tistory.com/385)
