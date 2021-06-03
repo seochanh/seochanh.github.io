@@ -3,6 +3,8 @@ title: '[JavaScript, jQuery] 현재 URL과 경로을 가져오는 방법'
 tag: [javascript, jquery]
 ---
 
+현재의 `URL`과 `a`태그의 `href`가 동일할 때, `a`태그에 `.addClass('on')`을 하기 위해서 경로를 가져오는 방법을 확인해보았다.
+
 ##### JavaScript의 경우
 ```javascript
 window.location.host      // returns host
@@ -25,7 +27,7 @@ $(location).attr('protocol'); // returns protocol
 $(location).attr('origin');
 ```
 
-현재 URL, 경로 뿐 아니라 선택자로 `a` 태그를 선택하여 `href` 등을 가져올 수 있다.
+- 현재 URL, 경로 뿐 아니라 선택자로 `a` 태그를 선택하여 `href` 등을 가져올 수 있다.
 
 
 출처: [[jQuery] 현재 URL, 경로 가져오는 방법 - shaking blog](https://88240.tistory.com/385)
