@@ -1,0 +1,21 @@
+---
+title: '[JavaScript, jQuery] 현재 URL과 경로을 가져오는 방법'
+tag: [javascript, jquery]
+---
+
+현재의 `URL`이 `a`태그의 `href`보다 길어지는 경우가 있어서 일정 부분에서 분할을 해줘야 했다.
+
+```javascript
+// string.split( separator, limit )
+const urlPath = $(location).attr('pathname'),
+      splitUrlPath = urlPath.split("_");
+
+```
+
+- `limit` 인수는 선택 사항으로, 최대 분할 개수를 정할 수 있다.
+    > 분할 최대 개수를 정하면, 그 개수를 넘어가는 문자열은 반환되지 않습니다.
+- 분할된 문자열은 배열로 만들어진다.
+- 배열은 `reverse()`를 이용해 원소의 순서를 반대로 만들 수 있다.
+
+
+출처: [JavaScript / Object / String.split() / 문자열 분할하는 메서드 - CODING FACTORY](https://www.codingfactory.net/10424)
