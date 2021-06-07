@@ -1,0 +1,19 @@
+---
+title: '[HTML, CSS] 선택자'
+tag: [html, css]
+---
+
+1. `div > p`
+2. `div + p`
+  - `div`요소 바로 다음에 위치한  `p`요소
+3. `div ~ p`
+  - `div`요소 이후에 등장하는 모든 `p`요소
+4. `a[target=_blank]`
+5. `a[href^="https"]`
+  - `href`속성의 값이 `https`로 시작하는 `a`태그
+6. `a[href$=".pdf"]
+  - `href`속성의 값이 `.pdf`로 끝나는 `a`태그
+7. `[title~="area"]
+  - `title`속성의 값에 `area`라는 단어가 포함된 요소
+8. `a[href*="w3s"]
+  - `href`속성의 값이 `w3s`라는 문자열을 포함하는 `a`태그
