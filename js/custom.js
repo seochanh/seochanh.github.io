@@ -18,7 +18,6 @@
 $(function(){
   $('.c-tags > a').each(function() {
     let tagUrl = $(this).attr('href') + '/'
-    console.log(tagUrl);
 
     if (window.location.pathname == tagUrl) {
       $(this).addClass('selected');
