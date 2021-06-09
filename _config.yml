@@ -53,6 +53,7 @@ defaults:
       path:   ''
     values:
       layout: 'post'
+      sitemap: true
   - scope:
       path:   ''
     values:
@@ -67,3 +68,4 @@ defaults:
       type:   'notes'
     values:
       layout: 'note'
+      sitemap: true
