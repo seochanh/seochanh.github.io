@@ -20,6 +20,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-sitemap
 
 include:
   - _pages
