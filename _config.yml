@@ -45,24 +45,24 @@ collections:
 # Pages path
 defaults:
   - scope:
-      path:   'pages'
+      path:   ''
     values:
       layout: 'default'
   - scope:
-      path:   'posts'
+      path:   ''
     values:
       layout: 'post'
   - scope:
-      path:   'category'
+      path:   ''
     values:
       layout: 'category'
   - scope:
-      path:   'poetry'
+      path:   ''
       type:   'poetry'
     values:
       layout: 'poem'
   - scope:
-      path:   'notes'
+      path:   ''
       type:   'notes'
     values:
       layout: 'note'
