@@ -10,26 +10,23 @@ instagram:   'https://www.instagram.com/chchchanh/'
 facebook:    ''
 logo: '/images/posts/jekyll.jpg'
 
+sass:
+  style: compressed
+
+# Markdown
 markdown:  kramdown
 permalink: pretty
 paginate:  10
 
-sass:
-  style: compressed
-
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-sitemap
 
-include:
-  - _pages
-
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - category
+# Handling Reading
+include:  ['_pages']
+exclude:  ['vendor', 'Gemfile', 'Gemfile.lock']
 
 # Tags
 tag_page_dir:         tag
@@ -51,21 +48,23 @@ defaults:
       layout: 'default'
   - scope:
       path:   ''
+      type:   'posts'
     values:
       layout: 'post'
       sitemap: true
   - scope:
-      path:   ''
+      path:   'category'
     values:
       layout: 'category'
-  - scope:
-      path:   ''
-      type:   'poetry'
-    values:
-      layout: 'poem'
+      sitemap: true
   - scope:
       path:   ''
       type:   'notes'
     values:
       layout: 'note'
       sitemap: true
+  # - scope:
+  #     path:   ''
+  #     type:   'poetry'
+  #   values:
+  #     layout: 'poem'
