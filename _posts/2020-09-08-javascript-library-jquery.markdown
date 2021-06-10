@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Javascript,jQuery] 제이쿼리, 라이브러리는 라이브러리일 뿐'
-tags: [javascript, jquery, tag01]
+tags: [javascript, jquery]
 image:
   feature: /images/posts/jquery.jpg
 ---

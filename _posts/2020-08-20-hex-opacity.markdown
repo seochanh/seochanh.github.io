@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[CSS,JavaScript] Hex코드(16진수)와 투명도'
-tags: [css, javascript, hex, rgba, rrggbbaa]
+tags: [css, javascript]
 # image: '/images/posts/8.jpg'
 ---
 
@@ -222,7 +222,7 @@ function rgbText() {
 }
 rgbText();
 ```
-1. 글자 색상에 관한 식에는 상자 색상처럼 반복문을 한 번 더 쓰지 않고 인덱스 [0]을 사용했습니다. 덕분에 코드가 간결해졌습니다. 
+1. 글자 색상에 관한 식에는 상자 색상처럼 반복문을 한 번 더 쓰지 않고 인덱스 [0]을 사용했습니다. 덕분에 코드가 간결해졌습니다.
 2. 함수 외에 명령어를 실행시키는 방법을 몰라서 함수를 사용하여 실행시켰습니다.
 3. 의도하지는 않았지만 .innerHTML을 이용하니 원래 있던 문자가 사라졌습니다. 지정 요소의 내용을 아예 바꿔주는 코드로 보입니다.
 
@@ -254,7 +254,7 @@ rgbText();
       hex[j].style.backgroundColor = `#000000${hexNum}`;
     }
   }
-  
+
   // HEX text
   function hexText() {
     for(let i = 0; i <= 100; i++) {

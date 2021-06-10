@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '[MacBook] 새로 설치한 맥북 프로그램 (설치하면 좋은 프로그램 2)'
-tags: [macbook, tag01]
+title: '[macOS] 새로 설치한 맥북 프로그램 (설치하면 좋은 프로그램 2)'
+tags: [macos]
 image:
   feature: /images/posts/alfred.jpg
 ---

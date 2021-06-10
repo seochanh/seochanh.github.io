@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Javascript] console과 객체(Object)'
-tags: [javascript, tag01]
+tags: [javascript]
 image:
   feature: /images/posts/javascript.jpg
 ---

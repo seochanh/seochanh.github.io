@@ -1,7 +1,8 @@
 ---
 layout: post
 title: '[MarkDown,Git Blog] 마크다운 내부에 HTML, CSS, JavaScript 작성하기'
-tags: [Markdown, html, css, javascript, gitblog]
+tags: [markdown, html, css, javascript, gitblog]
+categories: [jekyll]
 image:
   feature: /images/posts/markdown.jpg
 ---

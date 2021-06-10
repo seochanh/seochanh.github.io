@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Jekyll 블로그 카테고리 기능 추가'
-tags: [tag01]
-categories: [bye]
+tags: [jekyll]
+categories: [jekyll]
 # image: '/images/posts/8.jpg'
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '[MacBook] 나를 위한 맥북 초기 세팅 + 설치하면 좋은 프로그램'
-tags: [macbook, setting, program]
+title: '[macOS] 나를 위한 맥북 초기 세팅 + 설치하면 좋은 프로그램'
+tags: [macos]
 # image: '/images/'
 ---
 
@@ -64,7 +64,7 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 ![환경설정](/images/posts/2020-08-23/scroll_setting.png)
 5. 이제 마우스와 트랙패드 모두 스크롤을 진짜 자연스러운 방향으로 이용할 수 있습니다.
 
-- 링크 : [Scroll Reverser 다운로드](https://pilotmoon.com/scrollreverser/), 
+- 링크 : [Scroll Reverser 다운로드](https://pilotmoon.com/scrollreverser/),
 [출처](https://pinkwink.kr/993)
 
 <br>
@@ -80,7 +80,7 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 ![macs fan control](/images/posts/2020-08-23/fan_3.png)
 5. 마지막으로 `시스템 시작 시 최소화로 자동시작` 될 수 있도록 설정해 주세요.
 
-- 링크 : [Macs Fan Control 다운로드](https://crystalidea.com/macs-fan-control), 
+- 링크 : [Macs Fan Control 다운로드](https://crystalidea.com/macs-fan-control),
 [출처](https://www.youtube.com/watch?v=6cGJphAHebU)
 
 <br>
@@ -89,7 +89,7 @@ Dock을 좀 더 효율적으로 사용하기 위해서는 설정이 필요합니
 윈도우에서는 윈도우 키와 방향키로 그냥 사용할 수 있었던 기능을 맥북에서는 돈 주고 다운 받아야 쓸 수 있네요. 저는 윈도우를 사용할 때도 워낙 자주 사용하던 기능이라 바로 구매했습니다.
 1. [링크](https://apps.apple.com/kr/app/magnet-%EB%A7%88%EA%B7%B8%EB%84%B7/id441258766?mt=12)를 통해 들어가거나 앱 스토어에서 `Magnet`을 검색해서 다운 받습니다. 가격은 3,900원입니다.
 ![Magnet download](/images/posts/2020-08-23/magnet_1.png)
-2. 상단 메뉴바의 Magnet 아이콘을 클릭하여 사용하시거나 단축키를 보고 사용하시면 됩니다. `control + option + 방향키`와 `control + option + enter` 외에는 쓸 일이 많이 없기는 하네요. 
+2. 상단 메뉴바의 Magnet 아이콘을 클릭하여 사용하시거나 단축키를 보고 사용하시면 됩니다. `control + option + 방향키`와 `control + option + enter` 외에는 쓸 일이 많이 없기는 하네요.
 ![Magnet download](/images/posts/2020-08-23/magnet_2.png){: width="300"}
 
 

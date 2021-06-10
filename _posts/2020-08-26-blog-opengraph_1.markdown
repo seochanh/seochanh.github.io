@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[YAML,Liquid,GitBlog] 깃허브 블로그에 Open Graph 태그 넣기 (1)'
-tags: [jekyll, yaml, liquid, github, tag01]
+tags: [jekyll]
 image:
   feature: /images/posts/jekyll.jpg
 ---

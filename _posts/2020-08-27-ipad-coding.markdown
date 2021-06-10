@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[iPad,Linux] 아이패드로 코딩하기'
-tags: [linux, blink, nodejs, git, ipad, shell, gcloud, server, tag01]
+tags: [linux]
 image:
   feature: /images/posts/blink.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[SSH, Linux] VM 인스턴스를 다른 OS로 외부IP 주소에 접속하기'
-tags: [linux, gcloud, server, tag01]
+tags: [linux]
 image:
   feature: /images/posts/gcloud.jpg
 ---

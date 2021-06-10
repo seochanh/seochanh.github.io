@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Github,WakaTime,CODUCK] 최근 한 달간의 코딩 기록'
-tags: [github, tag01]
+# tags: []
 image:
   feature: /images/posts/2020-09-23/contribution-graph.jpg
 ---
