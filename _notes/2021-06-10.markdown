@@ -1,0 +1,41 @@
+---
+title: '[Jekyll] 머리말의 기본값 설정하기'
+tag: [jekyll]
+categories: [jekyll]
+---
+
+Jekyll 블로그는 페이지와 포스트의 머리말을 통해 `layout`, `tag` 등의 환경설정 값을 조정할 수 있다. 또한 기본값 설정을 통해 원하는 범위에 환경설정 값을 기본값으로 설정하여 반복 입력을 막을 수 있다.
+
+기본값은 `_config.yml` 파일에 `defaults`라는 키를 사용하여 정의할 수 있다.
+
+  ```yml
+  # 컬렉션
+  collections:
+    notes:
+      output: true
+
+  # 기본값
+  defaults:
+    - scope:
+        path: ""  # 빈 문자열은 프로젝트의 모든 파일을 의미.
+        type: "posts"
+      values:
+        layout: 'default'
+    - scope:
+        path:   ''
+        type:   'posts'
+      values:
+        layout: 'post'
+    - scope:
+        path:   ''
+        type:   'notes'
+      values:
+        layout: 'note'
+  ```
+
+  - `scope`: 이 경로`scope` 안에 존재하는 모든 파일로 `values`의 범위를 제한.
+  - `path`: 반드시 정의해야 함.
+  - `type`: `pages`, `posts`, `drafts` 또는 사이트 내의 컬렉션 이름을 사용할 수 있음.
+  - `notes`라는 이름의 컬렉션 안에서는 `layout`이 `note`로 설정됨.
+
+###### 출처: [머리말 기본값 - jekyll](https://jekyllrb-ko.github.io/docs/configuration/front-matter-defaults/)
