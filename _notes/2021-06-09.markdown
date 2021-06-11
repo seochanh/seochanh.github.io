@@ -7,7 +7,7 @@ tag: [jekyll]
 1. `Gemfile`에 `gem 'jekyll-sitemap'`을 추가하고
 2. 프로젝트 루트 디렉토리에서 `bundle install`을 실행한다.
 3. `_config.yml`을 수정한다.
-    ```
+    ```yml
     plugin:
       - jekyll-sitemap
     defaults:
