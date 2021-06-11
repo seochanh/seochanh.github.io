@@ -1,6 +1,6 @@
 ---
 title: '[VSCode] FTP 확장프로그램'
-tag: [vscode, ftp]
+tag: [vscode]
 ---
 
 `RaiDrive`로 FTP에 접속하여 작업을 했었는데 무료 버전에는 FTP 연결이 8개로 제한이 되어 있어서 `VSCode`에서 FTP를 바로 연결해서 사용하는 확장 프로그램을 설치하고 사용해봤다.
