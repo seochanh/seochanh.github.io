@@ -1,0 +1,24 @@
+---
+title: '[HTML, CSS] <hr> 태그 사용법'
+tag: [html, css]
+---
+
+### \<hr\> 기본 스타일
+- 아무런 스타일을 주지 않은 `<hr>`태그에는 기본적으로 높이가 없는 박스에 `border`가 들어가있는 구조라는 것을 확인했다.
+- `margin: 0.5em auto`: 상하 마진 + 중앙 정렬
+- 기본적으로 두 가지 색을 가진 `2px`의 가로줄이 생성된다: `Chrome`의 경우, `border-top`과 `border-left`는 `1px solid #eee`, `border-bottom`과 `border-right`는 `1px solid #9a9a9a`
+
+<br>
+
+### \<hr\> 활용
+- 높이(`height`)와 너비(`width`)를 모두 줄 수 있기 때문에 단순한 모양으로도 사용 가능하다.
+- `border-radius`로 원도 만들 수 있다.
+- 한 개의 가로줄로 만들고 싶을 경우, `border: none`을 준 후, `border-top: 1px solid #000`을 주면 된다.
+
+<br>
+
+<hr>
+
+<br>
+
+###### 참고: [How TO - Style HR (Horizontal Ruler/Line) - w3school](https://www.w3schools.com/howto/howto_css_style_hr.asp)
